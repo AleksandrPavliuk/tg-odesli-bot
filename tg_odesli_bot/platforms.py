@@ -104,12 +104,12 @@ class AppleMusicPlatform(PlatformABC):
     order = 6
 
 
-class TidalPlatform(PlatformABC):
-    """Tidal platform."""
+# class TidalPlatform(PlatformABC):
+#     """Tidal platform."""
 
-    key = 'tidal'
-    url_re = (
-        r'https?://(www\.|listen\.)?tidal\.com(/browse)?/(track|album)/\d+'
-    )
-    name = 'Tidal'
-    order = 7
+#     key = 'tidal'
+#     url_re = (
+#         r'https?://(www\.|listen\.)?tidal\.com(/browse)?/(track|album)/\d+'
+#     )
+#     name = 'Tidal'
+#     order = 7
